@@ -7,3 +7,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-01-24** `[004]`: docs: document compiler flags and GnuCOBOL 3.2 toolchain setup
 - **2024-01-28** `[005]`: docs: establish TalTech coding standards and copybook guidelines
 - **2024-02-02** `[006]`: build: scaffold initial Makefile with clean and stub build rules
+- **2024-02-06** `[007]`: chore: add Windows compilation batch stub
