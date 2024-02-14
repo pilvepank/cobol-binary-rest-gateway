@@ -9,3 +9,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-02-02** `[006]`: build: scaffold initial Makefile with clean and stub build rules
 - **2024-02-06** `[007]`: chore: add Windows compilation batch stub
 - **2024-02-10** `[008]`: chore: add Windows execution runner stub
+- **2024-02-14** `[009]`: docs: add initial system overview to README
