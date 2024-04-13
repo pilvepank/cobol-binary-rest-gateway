@@ -23,3 +23,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-04-01** `[020]`: Merge pull request #1 from pilvepank/init-architecture
 - **2024-04-05** `[021]`: feat(schema): scaffold PROTO-FRAME.cpy record layout and header fields
 - **2024-04-09** `[022]`: feat(schema): add secondary payload fields and attributes to PROTO-FRAME.cpy
+- **2024-04-13** `[023]`: refactor(schema): optimize numeric types using COMP-5 / COMP-3 in PROTO-FRAME.cpy
