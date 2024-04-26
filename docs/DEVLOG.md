@@ -26,3 +26,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-04-13** `[023]`: refactor(schema): optimize numeric types using COMP-5 / COMP-3 in PROTO-FRAME.cpy
 - **2024-04-17** `[024]`: feat(schema): declare 88-level condition names and validation states in PROTO-FRAME.cpy
 - **2024-04-22** `[025]`: docs(schema): document byte offsets and alignment boundaries for PROTO-FRAME.cpy
+- **2024-04-26** `[026]`: Merge pull request #6 from pilvepank/schema-proto-frame-cpy
