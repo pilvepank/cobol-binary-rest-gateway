@@ -28,3 +28,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-04-22** `[025]`: docs(schema): document byte offsets and alignment boundaries for PROTO-FRAME.cpy
 - **2024-04-26** `[026]`: Merge pull request #6 from pilvepank/schema-proto-frame-cpy
 - **2024-04-30** `[027]`: feat(schema): scaffold PROTO-PAYLOADS.cpy record layout and header fields
+- **2024-05-04** `[028]`: feat(schema): add secondary payload fields and attributes to PROTO-PAYLOADS.cpy
