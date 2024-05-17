@@ -31,3 +31,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-05-04** `[028]`: feat(schema): add secondary payload fields and attributes to PROTO-PAYLOADS.cpy
 - **2024-05-09** `[029]`: refactor(schema): optimize numeric types using COMP-5 / COMP-3 in PROTO-PAYLOADS.cpy
 - **2024-05-13** `[030]`: feat(schema): declare 88-level condition names and validation states in PROTO-PAYLOADS.cpy
+- **2024-05-17** `[031]`: docs(schema): document byte offsets and alignment boundaries for PROTO-PAYLOADS.cpy
