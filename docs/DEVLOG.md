@@ -33,3 +33,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-05-13** `[030]`: feat(schema): declare 88-level condition names and validation states in PROTO-PAYLOADS.cpy
 - **2024-05-17** `[031]`: docs(schema): document byte offsets and alignment boundaries for PROTO-PAYLOADS.cpy
 - **2024-05-21** `[032]`: Merge pull request #8 from pilvepank/schema-proto-payloads-cpy
+- **2024-05-25** `[033]`: feat(gateway): scaffold proto_engine.cbl identification and environment division
