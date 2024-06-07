@@ -36,3 +36,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-05-25** `[033]`: feat(gateway): scaffold proto_engine.cbl identification and environment division
 - **2024-05-30** `[034]`: feat(gateway): configure SPECIAL-NAMES DECIMAL-POINT IS COMMA
 - **2024-06-03** `[035]`: feat(gateway): declare working-storage state buffers and accumulator registers
+- **2024-06-07** `[036]`: feat(gateway): declare internal lookup tables and binary index pointers
