@@ -43,3 +43,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-06-24** `[040]`: feat(gateway): add input bounds validation and null pointer defensive checks
 - **2024-06-28** `[041]`: feat(gateway): implement primary operational execution paragraph
 - **2024-07-02** `[042]`: feat(gateway): implement secondary state transition paragraph
+- **2024-07-06** `[043]`: feat(gateway): implement queue eviction and index compaction logic
