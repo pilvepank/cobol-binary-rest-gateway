@@ -44,3 +44,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-06-28** `[041]`: feat(gateway): implement primary operational execution paragraph
 - **2024-07-02** `[042]`: feat(gateway): implement secondary state transition paragraph
 - **2024-07-06** `[043]`: feat(gateway): implement queue eviction and index compaction logic
+- **2024-07-11** `[044]`: refactor(gateway): replace sequential search with binary search
