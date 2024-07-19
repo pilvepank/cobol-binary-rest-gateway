@@ -46,3 +46,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-07-06** `[043]`: feat(gateway): implement queue eviction and index compaction logic
 - **2024-07-11** `[044]`: refactor(gateway): replace sequential search with binary search
 - **2024-07-15** `[045]`: fix(gateway): correct off-by-one boundary underflow in index calculation
+- **2024-07-19** `[046]`: Merge pull request #10 from pilvepank/fix-boundary-underflow
