@@ -48,3 +48,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-07-15** `[045]`: fix(gateway): correct off-by-one boundary underflow in index calculation
 - **2024-07-19** `[046]`: Merge pull request #10 from pilvepank/fix-boundary-underflow
 - **2024-07-23** `[047]`: feat(gateway): implement state serialization and snapshot persistence
+- **2024-07-28** `[048]`: feat(gateway): implement state reconstruction and crash recovery loader
