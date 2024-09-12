@@ -59,3 +59,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-08-30** `[056]`: chore(gateway): tag v0.5.0-beta core engine milestone
 - **2024-09-03** `[057]`: Merge pull request #10 from pilvepank/engine-baseline
 - **2024-09-08** `[058]`: feat(gateway): scaffold rest_gateway.c identification and environment division
+- **2024-09-12** `[059]`: feat(gateway): configure SPECIAL-NAMES DECIMAL-POINT IS COMMA
