@@ -61,3 +61,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-09-08** `[058]`: feat(gateway): scaffold rest_gateway.c identification and environment division
 - **2024-09-12** `[059]`: feat(gateway): configure SPECIAL-NAMES DECIMAL-POINT IS COMMA
 - **2024-09-16** `[060]`: feat(gateway): declare working-storage state buffers and accumulator registers
+- **2024-09-20** `[061]`: feat(gateway): declare internal lookup tables and binary index pointers
