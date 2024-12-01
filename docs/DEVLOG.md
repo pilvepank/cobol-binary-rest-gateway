@@ -78,3 +78,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-11-18** `[075]`: perf(gateway): eliminate intermediate arithmetic variables to reduce register spill
 - **2024-11-22** `[076]`: refactor(gateway): standardize paragraph naming and PERFORM THRU boundaries
 - **2024-11-27** `[077]`: fix(gateway): handle zero-quantity edge case without state corruption
+- **2024-12-01** `[078]`: Merge pull request #19 from pilvepank/fix-zero-qty
