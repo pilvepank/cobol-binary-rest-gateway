@@ -109,3 +109,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2025-03-29** `[106]`: test(protocol): add test scenario 4 - state persistence roundtrip fidelity
 - **2025-04-02** `[107]`: test(protocol): add test scenario 5 - concurrent interleaved execution invariant
 - **2025-04-06** `[108]`: test(protocol): format summary table and pass/fail assertion reporter
+- **2025-04-10** `[109]`: fix(test): correct expected test returncode assertion condition
