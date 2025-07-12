@@ -131,3 +131,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2025-06-29** `[128]`: test(coverage): expand assertion coverage for edge case condition #27
 - **2025-07-04** `[129]`: test(coverage): expand assertion coverage for edge case condition #28
 - **2025-07-08** `[130]`: test(coverage): expand assertion coverage for edge case condition #29
+- **2025-07-12** `[131]`: feat(proto_json_parser): declare copybook schema JSON-PARSER.cpy
