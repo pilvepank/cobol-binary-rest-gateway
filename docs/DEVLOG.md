@@ -134,3 +134,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2025-07-12** `[131]`: feat(proto_json_parser): declare copybook schema JSON-PARSER.cpy
 - **2025-07-16** `[132]`: feat(proto_json_parser): add validation bounds and status condition names to JSON-PARSER.cpy
 - **2025-07-20** `[133]`: feat(proto_json_parser): scaffold proto_json_parser.cbl subprogram interface
+- **2025-07-25** `[134]`: feat(proto_json_parser): implement calculation logic and state transitions in proto_json_parser.cbl
