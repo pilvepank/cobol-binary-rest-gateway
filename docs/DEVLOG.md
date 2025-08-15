@@ -139,3 +139,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2025-08-02** `[136]`: test(proto_json_parser): establish automated unit test suite in proto_json_test.cbl
 - **2025-08-06** `[137]`: test(proto_json_parser): achieve 100% test assertion pass rate for proto_json_parser
 - **2025-08-10** `[138]`: refactor(proto_json_parser): optimize memory layout and eliminate redundant PERFORM calls
+- **2025-08-15** `[139]`: docs(proto_json_parser): document submodule architecture and usage in docs/SUBMODULES.md
