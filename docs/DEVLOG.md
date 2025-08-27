@@ -142,3 +142,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2025-08-15** `[139]`: docs(proto_json_parser): document submodule architecture and usage in docs/SUBMODULES.md
 - **2025-08-19** `[140]`: Merge pull request #43 from pilvepank/feat-proto_json_parser
 - **2025-08-23** `[141]`: feat(proto_rate_limiter): declare copybook schema RATE-LIMIT.cpy
+- **2025-08-27** `[142]`: feat(proto_rate_limiter): add validation bounds and status condition names to RATE-LIMIT.cpy
