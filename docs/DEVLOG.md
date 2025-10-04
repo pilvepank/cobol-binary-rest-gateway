@@ -151,3 +151,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2025-09-22** `[148]`: refactor(proto_rate_limiter): optimize memory layout and eliminate redundant PERFORM calls
 - **2025-09-26** `[149]`: docs(proto_rate_limiter): document submodule architecture and usage in docs/SUBMODULES.md
 - **2025-09-30** `[150]`: Merge pull request #46 from pilvepank/feat-proto_rate_limiter
+- **2025-10-04** `[151]`: refactor(subsystems): tighten linkage section parameter validations (step 20)
