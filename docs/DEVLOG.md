@@ -172,3 +172,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2025-12-19** `[169]`: Merge pull request #55 from pilvepank/feat-proto_jwt_auth
 - **2025-12-23** `[170]`: feat(proto_metrics_exporter): declare copybook schema METRICS-COLLECTOR.cpy
 - **2025-12-27** `[171]`: feat(proto_metrics_exporter): implement proto_metrics_exporter.cbl operational routines
+- **2026-01-01** `[172]`: test(proto_metrics_exporter): add automated unit tests in proto_cors_test.cbl
