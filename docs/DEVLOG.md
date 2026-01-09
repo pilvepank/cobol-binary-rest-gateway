@@ -174,3 +174,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2025-12-27** `[171]`: feat(proto_metrics_exporter): implement proto_metrics_exporter.cbl operational routines
 - **2026-01-01** `[172]`: test(proto_metrics_exporter): add automated unit tests in proto_cors_test.cbl
 - **2026-01-05** `[173]`: Merge pull request #56 from pilvepank/feat-proto_metrics_exporter
+- **2026-01-09** `[174]`: feat(proto_cors_validator): declare copybook schema CORS-CONFIG.cpy
