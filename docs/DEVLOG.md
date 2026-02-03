@@ -180,3 +180,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2026-01-22** `[177]`: Merge pull request #57 from pilvepank/feat-proto_cors_validator
 - **2026-01-26** `[178]`: feat(proto_tlv_encoder): declare copybook schema TLV-FRAME.cpy
 - **2026-01-30** `[179]`: feat(proto_tlv_encoder): implement proto_tlv_encoder.cbl operational routines
+- **2026-02-03** `[180]`: test(proto_tlv_encoder): add automated unit tests in proto_circuit_test.cbl
