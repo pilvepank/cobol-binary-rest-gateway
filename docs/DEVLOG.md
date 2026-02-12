@@ -182,3 +182,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2026-01-30** `[179]`: feat(proto_tlv_encoder): implement proto_tlv_encoder.cbl operational routines
 - **2026-02-03** `[180]`: test(proto_tlv_encoder): add automated unit tests in proto_circuit_test.cbl
 - **2026-02-08** `[181]`: Merge pull request #59 from pilvepank/feat-proto_tlv_encoder
+- **2026-02-12** `[182]`: feat(proto_circuit_breaker): declare copybook schema CIRCUIT-STATE.cpy

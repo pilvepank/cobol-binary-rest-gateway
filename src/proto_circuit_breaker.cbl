@@ -1,0 +1,37 @@
+*>================================================================
+*> PROGRAM:  proto_circuit_breaker.cbl
+*> PURPOSE:  Upstream Failure Protection & Circuit Tripping
+*> ================================================================
+ IDENTIFICATION DIVISION.
+ PROGRAM-ID. PROTO-CIRCUIT-BREAKER.
+
+ DATA DIVISION.
+ WORKING-STORAGE SECTION.
+
+ LINKAGE SECTION.
+ COPY "CIRCUIT-STATE.cpy".
+ 01  LS-CALL-RESULT         PIC X(01). *> 'S' Success, 'F' Failure
+ 01  LS-ALLOW-REQUEST       PIC X(01).
+
+ PROCEDURE DIVISION USING CIRCUIT-BREAKER-RECORD, LS-CALL-RESULT, LS-ALLOW-REQUEST.
+ 0000-MAIN.
+     IF CB-IS-OPEN
+         MOVE 'N' TO LS-ALLOW-REQUEST
+     ELSE
+         MOVE 'Y' TO LS-ALLOW-REQUEST
+     END-IF
+     
+     IF LS-CALL-RESULT = 'F'
+         ADD 1 TO CB-CONSECUTIVE-FAILURES
+         MOVE 0 TO CB-CONSECUTIVE-SUCCESS
+         IF CB-CONSECUTIVE-FAILURES >= CB-FAILURE-THRESHOLD
+             MOVE 'O' TO CB-CURRENT-STATE
+         END-IF
+     ELSE
+         ADD 1 TO CB-CONSECUTIVE-SUCCESS
+         MOVE 0 TO CB-CONSECUTIVE-FAILURES
+         IF CB-IS-HALF-OPEN AND CB-CONSECUTIVE-SUCCESS >= CB-RECOVERY-THRESHOLD
+             MOVE 'C' TO CB-CURRENT-STATE
+         END-IF
+     END-IF
+     GOBACK.
