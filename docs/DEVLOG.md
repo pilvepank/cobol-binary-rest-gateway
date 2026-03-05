@@ -187,3 +187,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2026-02-20** `[184]`: test(proto_circuit_breaker): add automated unit tests in proto_http_test.cbl
 - **2026-02-24** `[185]`: Merge pull request #60 from pilvepank/feat-proto_circuit_breaker
 - **2026-03-01** `[186]`: perf(bench): add high-throughput synthetic stress benchmark suite
+- **2026-03-05** `[187]`: build: update Windows build automation script to compile all submodules
