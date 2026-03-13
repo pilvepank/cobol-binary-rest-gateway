@@ -189,3 +189,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2026-03-01** `[186]`: perf(bench): add high-throughput synthetic stress benchmark suite
 - **2026-03-05** `[187]`: build: update Windows build automation script to compile all submodules
 - **2026-03-09** `[188]`: build: update Windows execution batch to run all test harnesses
+- **2026-03-13** `[189]`: build: add POSIX Makefile with test, clean, and coverage targets
