@@ -190,3 +190,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2026-03-05** `[187]`: build: update Windows build automation script to compile all submodules
 - **2026-03-09** `[188]`: build: update Windows execution batch to run all test harnesses
 - **2026-03-13** `[189]`: build: add POSIX Makefile with test, clean, and coverage targets
+- **2026-03-17** `[190]`: ci: configure automated GitHub Actions CI workflow with GnuCOBOL 3.2

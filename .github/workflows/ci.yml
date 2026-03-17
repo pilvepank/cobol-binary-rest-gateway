@@ -1,0 +1,27 @@
+name: Binary REST Protocol Gateway CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install GnuCOBOL
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gnucobol
+
+      - name: Build Core Engine
+        run: |
+          cobc -free -x -Wall -Icopybooks src/proto_engine.cbl -o proto_engine
+
+      - name: Execute Automated Test Suite
+        run: |
+          cobc -free -x -Wall -Icopybooks tests/proto_test.cbl -o proto_test && ./proto_test
