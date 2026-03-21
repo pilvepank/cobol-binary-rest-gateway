@@ -1,5 +1,5 @@
-      *================================================================*
-*> PROGRAM:  proto_rate_limiter.cbl                               *
+*>===============================================================*
+*> PROGRAM:  proto_rate_limiter.cbl                         *>
 *> PURPOSE:  Token Bucket Rate Limiter with 429 Throttle Reject   *
 *> ================================================================*
        IDENTIFICATION DIVISION.

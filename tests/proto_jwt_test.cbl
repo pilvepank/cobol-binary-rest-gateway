@@ -7,7 +7,7 @@
 
  DATA DIVISION.
  WORKING-STORAGE SECTION.
- COPY "JWT-TOKEN.cpy".
+ COPY "copybooks/JWT-TOKEN.cpy".
  01  WS-TOKEN               PIC X(128) VALUE "Bearer eyJhbGciOiJIUzI1NiJ9.test".
  01  WS-TESTS-RUN           PIC 9(04) VALUE 0.
  01  WS-TESTS-PASSED        PIC 9(04) VALUE 0.

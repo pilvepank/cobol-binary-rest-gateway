@@ -7,7 +7,7 @@
 
  DATA DIVISION.
  WORKING-STORAGE SECTION.
- COPY "ROUTER-TABLE.cpy".
+ COPY "copybooks/ROUTER-TABLE.cpy".
  01  WS-URL                 PIC X(32) VALUE "/api/v1/orders                  ".
  01  WS-TARGET              PIC X(16) VALUE SPACES.
  01  WS-STAT                PIC X(02) VALUE '  '.

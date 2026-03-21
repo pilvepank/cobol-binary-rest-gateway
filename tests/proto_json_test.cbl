@@ -1,6 +1,6 @@
-      *================================================================*
-*> PROGRAM:  proto_json_test.cbl                                  *
-*> PURPOSE:  Unit Test Suite for JSON Parser & Deserializer       *
+*>===============================================================*
+*> PROGRAM:  proto_json_test.cbl                            *>
+*> PURPOSE:  Unit Test Suite for JSON Parser & Deserializer *>
 *> ================================================================*
        IDENTIFICATION DIVISION.
        PROGRAM-ID. PROTO-JSON-TEST.

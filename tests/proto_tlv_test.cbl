@@ -7,7 +7,7 @@
 
  DATA DIVISION.
  WORKING-STORAGE SECTION.
- COPY "TLV-FRAME.cpy".
+ COPY "copybooks/TLV-FRAME.cpy".
  01  WS-TAG                 PIC 9(04) COMP-5 VALUE 1001.
  01  WS-LEN                 PIC 9(04) COMP-5 VALUE 16.
  01  WS-BUF                 PIC X(128) VALUE "BALTIC-CORE-GATE".

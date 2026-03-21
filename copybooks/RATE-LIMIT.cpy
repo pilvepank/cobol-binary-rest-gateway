@@ -1,6 +1,6 @@
-      *================================================================*
-*> COPYBOOK: RATE-LIMIT.cpy                                       *
-*> PURPOSE:  Token Bucket API Rate Limiter & Quota Context        *
+*>===============================================================*
+*> COPYBOOK: RATE-LIMIT.cpy                                 *>
+*> PURPOSE:  Token Bucket API Rate Limiter & Quota Context  *>
 *> ================================================================*
        01  RATE-LIMIT-BUCKET.
            05  RL-CLIENT-KEY           PIC X(16).

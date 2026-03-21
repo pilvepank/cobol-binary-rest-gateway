@@ -1,5 +1,5 @@
-      *================================================================*
-*> PROGRAM:  proto_json_parser.cbl                                *
+*>===============================================================*
+*> PROGRAM:  proto_json_parser.cbl                          *>
 *> PURPOSE:  High-Throughput Inbound JSON to Binary Deserializer  *
 *> ================================================================*
        IDENTIFICATION DIVISION.

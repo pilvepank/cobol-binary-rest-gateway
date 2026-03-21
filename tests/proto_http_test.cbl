@@ -7,7 +7,7 @@
 
  DATA DIVISION.
  WORKING-STORAGE SECTION.
- COPY "HTTP-REQ.cpy".
+ COPY "copybooks/HTTP-REQ.cpy".
  01  WS-METH                PIC X(08) VALUE "GET     ".
  01  WS-PATH                PIC X(64) VALUE "/api/v1/accounts/1001                           ".
  01  WS-TESTS-RUN           PIC 9(04) VALUE 0.

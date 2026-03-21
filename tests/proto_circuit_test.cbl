@@ -7,7 +7,7 @@
 
  DATA DIVISION.
  WORKING-STORAGE SECTION.
- COPY "CIRCUIT-STATE.cpy".
+ COPY "copybooks/CIRCUIT-STATE.cpy".
  01  WS-RES                 PIC X(01) VALUE 'F'.
  01  WS-ALLOW               PIC X(01) VALUE 'Y'.
  01  WS-TESTS-RUN           PIC 9(04) VALUE 0.
